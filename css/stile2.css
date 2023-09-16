@@ -57,7 +57,7 @@ body{ background-color:#F3F2EE ;
     }
     .sottotitolo{
         font-family:'Garamond';
-        font-size: 48px;
+        font-size: 3vw;
         color: #1e1e1e
     }
     .link{
@@ -121,6 +121,7 @@ body{ background-color:#F3F2EE ;
         justify-content: center;
         font-family: 'Titolazioni';
         font-size: 64px;
+        font-weight: lighter;
     }
     .linee{
         border-top: 1px solid black;
@@ -129,14 +130,16 @@ body{ background-color:#F3F2EE ;
 
     .sezione{
         display: flex;
+        justify-content: center;
         padding: 5%;
         border-bottom: 1px solid black;
     }
     .sinistra{
-        
+        width: 54%;
         border-right: 1px solid black;
     }
     .destra{
+        width: 37%;
         padding-left: 0%;
     }
     .sopra{
@@ -166,7 +169,6 @@ body{ background-color:#F3F2EE ;
     }
     .sotto2{
         display: flex;
-        text-align: center;
         justify-content:space-evenly;
         
     }
@@ -176,12 +178,13 @@ body{ background-color:#F3F2EE ;
     }
     .padding{
         padding-bottom: 5%;
-        padding-left: 9%;
+       
         padding-right: 9%;
     }
     .sezione h2{
         font-family: 'Garamond';
         font-size: 3vw;
+        font-weight: 600;
     }
     .sezione p{
         font-family: 'Paragrafi';
@@ -191,11 +194,12 @@ body{ background-color:#F3F2EE ;
     .sezione h1{
         font-family: 'Titolazioni';
         font-size: 4vw;
+        font-weight: normal;
     }
     .sezione h3{
         font-family: 'Paragrafi';
         font-size: 1.5vw;
-        text-align: center;
+        
     }
 
     .sezione ul{
@@ -210,6 +214,116 @@ body{ background-color:#F3F2EE ;
         max-width: 100%;
     }
     .sinistra2{
-        padding: 5%;
+        padding: 5% 0%;
+        width: 54%;
         border-right: 1px solid black;
+    }
+    .sotto a{
+        font-family: 'Garamond';
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    footer h1{
+        font-family: 'Titolazioni';
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer p{
+        font-family: 'Garamond';
+        margin-top: 10px;
+        
+    }
+    footer a{
+        font-family: 'Paragrafi';
+    }
+
+    @media (max-width: 750px) {
+        nav{display: none;}
+        footer{border: none;}
+        .colonnasx{
+            display: none;
+        }
+        .colonnadx{
+            display: none;
+        }
+        .sezione{
+            margin: auto;
+            WIDTH: 90%;
+            display: flex;
+            justify-content: center;
+            FLEX-DIRECTION: COLUMN;
+            padding: 0%;
+            border-bottom: 1px solid black;
+        }
+        .sinistra{
+            PADDING: 5%;
+            width: 90%;
+            border-right: none;
+        }
+        .destra{
+            width: 90%;
+            padding: 5%;
+        }
+        .sopra{padding-left: 0%;
+            padding-bottom: 5%;
+             border-bottom: none;
+        }
+        .sopra3{
+            padding: 0%;
+            border-bottom: 1px solid black;
+        }
+        .link{
+            font-size: 24px;
+        }    
+        .png{
+            width: 25%;
+        }
+        .centrato{display: none}
+        .sopra2{
+            padding-bottom: 0%;
+            text-align: center;
+
+            padding: 0%;
+        }
+        .sotto{
+            padding: 0%;
+        }
+        .sotto3{
+            padding: 0%;
+
+        }
+        .sinistra2{width: 100%;
+            padding: 5% 0%;
+            border-right: none;
+        }
+        .linee{
+            display: flex;
+            justify-content: center;
+
+            width: 100%;
+        }
+        .titoli{font-size: 10vw;}
+        .sezione h2{
+            text-align: center;
+            font-size: 5vw;
+        }
+        .sezione p{
+            font-size: 3vw;
+            line-height: 5vw;
+        }
+        .sezione h1{
+            TEXT-ALIGN: CENTER;
+            font-size: 8vw;
+        }
+        .sezione h3{
+            font-size: 3vw;
+            text-align: center;
+        }
+        .sezione ul{
+            justify-content: space-around;
+            display: flex;
+            PADDING: 20px;
+            font-size: 3vw;
+        }
+        
     }

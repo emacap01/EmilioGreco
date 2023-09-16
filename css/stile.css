@@ -23,6 +23,9 @@ body{ background-color:#F3F2EE ;
         margin-bottom: 2px;
     
     }
+    nav a{
+        text-decoration: none;
+    }
     #titolo{margin: 10px 0px;}
     nav div{
         display: flex;
@@ -49,7 +52,6 @@ body{ background-color:#F3F2EE ;
     }
     a{
         color: #1e1e1e;
-        text-decoration: none;
     }
     .noMarginBottom{
         margin-bottom: 0px;
@@ -200,3 +202,130 @@ body{ background-color:#F3F2EE ;
         border-right: 1px solid black;
         padding-right: 20%;
     }
+    .stile3{
+        width: 34%;
+       
+    }
+    .stile3 h2{
+        font-family: 'Garamond';
+        font-size: 3vw;
+
+    }
+    .stile3{
+        font-family: 'Paragrafi';
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+    #poesie1{
+        width: 55%;
+        padding-left: 5%;
+    }
+    #poesie2{
+        width: 100%;
+    }
+    footer h1{
+        font-family: 'Titolazioni';
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   
+    footer a{
+        font-family: 'Paragrafi';
+        text-decoration: none;
+    }
+ @media (max-width: 750px){
+    nav{display: none;}
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none}
+    .png{
+        width: 25%;
+    }
+    .flexcenter{
+        display: flex;
+        flex-direction: column; 
+    }
+    .stile{
+        border-right: none;
+        margin: auto;
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 80%;
+    }
+    .stile h2{
+        font-size: 4vw;
+    }
+    #immagine{
+        margin: auto;
+        width: 80%;
+        padding: 0%;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: column;
+    }
+    #commiato{
+        margin: auto;
+    }
+    .stile2{
+        margin: auto; 
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .stile2 p{
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 80%;
+    }
+    .stile2 h2{
+        font-size: 4vw;
+    }
+    .space{
+        font-size: 3vw;
+        margin: auto;
+    }
+    .border{
+        padding-right: 13%;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+    }
+    #pinocchio{
+        width: 60%;
+        display: flex;
+        margin: auto;
+    }
+    #poesie1{
+        margin: auto;
+        width: 80%;
+        padding-left: 0%;
+    }
+    #poesie2{
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+    .stile3{
+        margin: auto; 
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .stile3 p{
+        font-size: 3vw;
+        line-height: 4vw;
+      
+    }
+    .stile3 h2{
+        font-size: 4vw;
+    }
+ }

@@ -250,3 +250,103 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+@media (max-width: 750px) {
+    nav{display: none;}
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none}
+    .png{
+        width: 25%;
+    }
+    .nipote{
+        font-size: 3.5vw;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .figlio{
+        font-size: 3.5vw;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .figlio2{
+        font-size: 3.5vw;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .figlio img {
+        max-width: 100%;
+         height: fit-content;}
+    .nonno{    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0% 10% 0% 10%;}
+        .padre{    display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           }
+
+        .borderbottom {
+            margin: auto;
+            padding: 5% 12% 5% 12%;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            margin-top: 2px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .statua {
+            width: 100%;
+             border-right: none;
+            padding-right:  none;}
+            .descrizione {
+                font-family: 'Paragrafi';
+                font-size: 3vw;
+                color: black;
+                display: flex;
+                padding: 0%;
+                line-height: 5vw;
+                width: 100%;
+                border-bottom: 1px solid black;
+            }
+            .descr2 {
+                font-family: 'Paragrafi';
+                font-size: 3vw;
+                color: black;
+                display: flex;
+                flex-direction: column;
+                line-height: 5vw;
+                padding-right: 10%;
+                padding: 0%;
+                width: 100%;
+            }
+
+            main section h4{
+               
+                font-size: 4vw;
+               
+            }
+            
+            main section h1{
+                
+                font-size: 8vw;
+              
+            }
+            
+            main section h3{
+                
+                font-size: 4vw;
+               
+            }
+            #linea{
+                padding-top: 5%;
+            }
+}

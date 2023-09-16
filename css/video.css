@@ -89,11 +89,11 @@ a{
     width: 80%;
     display: flex;
     flex-direction: column;
-    padding-top: 10%;
+    padding-top: 5%;
     font-family: 'quattrocento sans';
     font-size: 1vw;
     color: black;
-    margin: 0 auto;
+    margin:auto;
     border-bottom: 1px solid black;
 }
 .testo1{
@@ -101,8 +101,10 @@ a{
     font-size: 1.5vw;
     color: black;
     flex-direction: column;
-    line-height: 25pt;
-    padding: 5% 10% 5% 10%;
+    line-height: 2vw;
+    width: 60%;
+    margin: auto;
+   
 }
 .parte2{
     border-bottom: 1px solid black;
@@ -125,16 +127,16 @@ a{
 .poesia{
     font-family: 'quattrocento sans';
     font-size: 1.1vw;
-    line-height: 30pt;
+    line-height: 2vw;
     color: black;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin: -7%;
+    margin: -7% 0%;
 }
 .poesia p{
-    margin: -7%;
+    margin: -7% 0%;
 }
 .cosini{
     width: 25%;
@@ -182,4 +184,53 @@ footer{
 .flex{
     display: flex;
     justify-content: space-between;
+}
+video{
+  width: 100%;
+  margin: auto;
+}
+footer h1{
+    font-family: 'lucyRose';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Cormorant Italic';
+    margin-top: 10px;
+    
+}
+footer a{
+    font-family: 'quattrocento sans';
+}
+@media (max-width: 750px) {
+    .img1{
+        font-size: 2vw;
+    }
+    .testo1{
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 80%;
+    }
+    .titolii h1{
+        font-size: 5vw;
+    }
+    .titolii h4{
+        font-size: 4vw;
+    }
+    .poesia{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    nav{display: none;}
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none}
+    .png{
+        width: 25%;
+    }
 }
