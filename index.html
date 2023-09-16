@@ -1,23 +1,34 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/Home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
+
 <body>
+    <input class="checkbox" type="checkbox" name="id">
+    <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+    </div>
     <nav>
-        <div class="vertical sx">
-            <a href="Collezioni.html">Opere</a>
-            <a href="Biografia.html">Biografia</a>
-            <div class="noMarginBottom"><a href="il-museo.html">Il museo</a></div> 
-        </div>
+        <ul class="vertical sx" id="menu">
+            <li><a href="Collezioni.html">Opere</a></li>
+            <li><a href="Biografia.html">Biografia</a></li>
+            <li class="noMarginBottom"><a href="il-museo.html">Il museo</a></li>
+        </ul>
         <div>
             <h1 id="titolo" class="header">EMILIO GRECO</h1>
-            <div class="sottotitolo"><a href="Home.html">Il museo</a></div>
+            <div class="sottotitolo"><a href="index.html">Il museo</a></div>
         </div>
-        <div class="vertical dx">
-            <a>Biblioteca</a> 
-            <a>Tariffe</a>
-            <div class="noMarginBottom"><a href="eventi.html">Eventi</a></div>
-        </div>
+        <ul class="vertical dx" id="menu">
+            <li><a href="Biblioteca.html">Biblioteca</a></li> 
+            <li><a href="tariffe.html">Tariffe</a></li>
+            <li class="noMarginBottom"><a href="eventi.html">Eventi</a></li>
+            <li class="hidden"><a href="Collezioni.html">Opere</a></li>
+            <li class="hidden"><a href="Biografia.html">Biografia</a></li>
+            <li class="hidden"><a href="il-museo.html">Il museo</a></li>
+        </ul>
     </nav>
 
     <section class="hero">
@@ -57,8 +68,7 @@
             <div class="figlioMinore"> 
                 <p class="paragrafi"> <em> Emozioni e Sentimenti</em> è una mostra scultorea realizzata dall’artista locale Giulia Gravina, ospitata dal museo Emilio Greco.La mostra sarà visibile al pubblico dal <strong>24 settembre al 14 novembre 2023</strong> durante l’orario d’apertura.</p>
                 <a href="eventi.html">Altre mostre →</a>
-                 
-            </div>
+                </div>
         </div>
     </section>
     <section class="finale">
@@ -85,7 +95,7 @@
                     <p>VEDI</p>
                      <p>→</p>
                 </div>
-                <h2 class="stile">Le tariffe</h2>
+                <div class="stile"><a href="tariffe.html">Le tariffe</a></div>
             </div>
             <div>
                 <img src="img/video.png" alt=""class="dimensione">
@@ -104,9 +114,9 @@
         </div>
         <div class="flex">
             <div class=colonnasx>
-                <a href="#">Home</a>
-                <a href="#">Chi siamo</a>
-                <a href="#">Tariffe</a>   
+                <a href="index.html">Home</a>
+                <a href="aboutUs.html">Chi siamo</a>
+                <a href="tariffe.html">Tariffe</a>   
             </div>
             <div class="social">
                 <img src="img/facebook.png" alt="f" class="png">
@@ -115,9 +125,9 @@
                 <img src="img/gmail.png" alt="Gm"class="png">
             </div>
             <div class=colonnadx>
-                <a href="#">Collezione</a> 
+                <a href="Collezioni.html">Collezione</a> 
                 <a href="#">Contatti</a>
-                <a href="#">Servizi</a>
+                <a href="il-museo.html">Servizi</a>
             </div>
         </div>
     </footer>
